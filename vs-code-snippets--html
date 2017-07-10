@@ -1,0 +1,8 @@
+{
+    "stylesheet link": {
+        "prefix": "link-css",
+        "body": [
+            "<link rel=\"stylesheet\" type=\"text/css\" href=\"$1\">"
+        ]
+    }
+}
