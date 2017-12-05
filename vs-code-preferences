@@ -2,7 +2,6 @@
     "editor.cursorBlinking": "blink",
     "editor.cursorStyle": "line",
     "editor.detectIndentation": false,
-    "editor.fontFamily": "Andale Mono, monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
     "editor.fontWeight": "400",
@@ -39,13 +38,38 @@
         "**/.svn": true,
         "**/CVS": true,
         "**/distribution/": true,
+        "**/libraries/": true,
+        "**/lib/": true,
         "**/node_modules/": true
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "window.menuBarVisibility": "visible",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "workbench.colorTheme": "Sapphire",
     "workbench.iconTheme": "vs-seti",
-    "workbench.sideBar.location": "left"
+    "workbench.sideBar.location": "left",
+    "editor.dragAndDrop": false,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "extensions.ignoreRecommendations": true,
+    "files.associations": {
+        "*.vue": "html",
+        "Vagrantfile": "ruby"
+    },
+    "line-counter.excludes": [
+        "**/.vscode/**",
+        "**/vendor/**",
+        "**/node_modules/**",
+        "**/lib/**",
+        "**/libraries/**",
+        "**/distribution/**"
+    ],
+    "line-counter.includes": [
+        "**/*"
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.lintOnSave": false,
+    "python.linting.pep8Enabled": true,
+    "[plaintext]": {
+
+    }
 }
